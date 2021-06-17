@@ -1,0 +1,168 @@
+
+
+/*********header*****/
+
+.main{
+	overflow: hidden;
+}
+.header-left{ 
+
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+.header-left a{
+	text-decoration: none;
+}
+.header-left span{
+	font-size: 25px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 6px;
+    display: inline;
+    padding: 10px;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.header-right {
+   float: right;   
+   width: 50%;
+    color: black;
+}
+.header-right li{
+	display: inline;
+}
+.header-right a{
+	display: inline;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.header-right a:hover{
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	transition: .3s;
+}
+
+
+
+
+
+
+.bg-red{
+	background-color: red;
+	padding: 10px;
+}
+.color-green{
+	color: green;
+}
+
+textarea{
+	padding: 20px;
+}
+.wrapper{
+	overflow:hidden;
+}
+.img1{
+	width: 50%;
+	float:left;
+}
+.img2{
+	width:50%;
+	float:right;
+}
+.img3{
+	width:100%;
+}
+
+/***** google video*******/
+.video{
+	width:565px;
+	height: 315px;
+}
+
+.map{
+	width:600px;
+	height: 315px;
+	margin-left: 20px;
+}
+
+.iframe{
+	
+	font-size:60px ;
+	text-align: center;
+	background-color:mediumseagreen;
+	color: white;
+	padding: 10px;
+}
+
+ul li{
+	list-style-type:square;
+}
+
+/*********table********/
+table{
+	width: 80%;
+	margin: auto;
+	border-collapse: collapse;
+	background-color:#212529;
+	color: white;
+}
+
+table,tr,th,td{
+	border: 1px solid white;
+	padding:10px 15px;
+}
+tr:nth-child(even) {
+  background-color: mediumseagreen;
+}
+
+td:hover{
+	background-color:white;
+	transition: .3s;
+	color: black;
+	
+}
+
+th:hover{
+	font-size: 25px;
+	background-color: darkcyan;
+}
+
+select{
+	margin: 10px 0px 50px;
+}
+
+/*********contact***********/
+
+input{
+	padding: 10px 20px;
+    width: 200px;
+}
+
+input#email {
+    margin-left: 31px;
+}
+
+.contact{
+	width: 80%;
+	margin: auto;
+}
+
+.text-center{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+form{
+	border: 1px solid black;
+    padding: 64px;
+}
